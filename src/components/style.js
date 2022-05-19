@@ -7,20 +7,22 @@ export default StyleSheet.create({
     },
     headerView:{
         flexDirection:"row",
-        padding:"3%",
-        justifyContent:"center",
+        paddingVertical:"3%",
+        paddingHorizontal:15,
+        justifyContent:"space-between",
+        backgroundColor:colors.blue3,
+        borderBottomRightRadius: 10,
+        borderBottomLeftRadius: 10,
         alignItems:"center"
     },  
     textInput:{        
-        borderRadius:50,
-        borderColor:colors.grey1,
-        backgroundColor:colors.grey2,
-        borderWidth:1,
+        borderRadius:50,        
+        backgroundColor:colors.blue4,       
         paddingLeft:14,
-        height:40,
+        height:45,
         width:"85%",
         marginRight:15,
-        fontSize:18,        
+        fontSize:20,
     } ,
     adsView:{
         backgroundColor:"red",
@@ -28,7 +30,11 @@ export default StyleSheet.create({
         marginTop:8,
         height:"20%",
         borderRadius:14
-    }
-      
+    },
+    headerTitle:{
+        fontSize:25,
+        fontWeight:"600",      
+        color:colors.white    
+    },     
   
 })
