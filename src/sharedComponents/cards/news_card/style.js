@@ -20,17 +20,17 @@ export default StyleSheet.create({
     title:{
         fontSize:20,
         fontWeight:"800",
-        color:colors.black,
+        color:colors.black,     
     },
     description:{
         flexDirection:"row",     
         justifyContent:"space-around",
-       
     },
     author:{
         fontSize:15,
         fontWeight:"700",
-        width:150
+        width:150,
+        
     },
     credate:{
         fontSize:15,

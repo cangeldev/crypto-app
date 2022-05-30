@@ -1,11 +1,9 @@
 import { StyleSheet } from "react-native"
-import colors from "../../assets/colors/colors"
+import colors from "../../../assets/colors/colors"
 export default StyleSheet.create({
     container: {
-        backgroundColor:colors.blue3,
-        marginTop: 10,
+        marginTop: 15,
         borderRadius: 10,
-        marginHorizontal: 10,
     },
     title: {
         marginLeft: 8,

@@ -1,26 +1,27 @@
 import React from "react";
-import { View, Text, TextInput, } from "react-native"
-import style from "./style";
-import IconI from "react-native-vector-icons/Ionicons";
-import colors from "../assets/colors/colors";
+import { View, TextInput} from "react-native"
+import IconF from "react-native-vector-icons/FontAwesome5";
 
 import { SliderBox } from "react-native-image-slider-box";
-import CustomFlatlist from "../sharedComponents/customflatlist/customflatlist";
+import CustomFlatlist from "../../sharedComponents/coinTopList/coinTopListFlatlist/coinTopListFlatlist";
+import colors from "../../assets/colors/colors";
+import style from "./style";
+import CoinListFlatlist from "../../sharedComponents/coinList/coinListFlatlist/coinListFlatlist";
+
 export default class HomeScreen extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
             images: [
-                require('../assets/images/bitcoin.jpg'),
-                require('../assets/images/ethereum.jpg'),
-                require('../assets/images/slp.jpg'),
+                require('../../assets/images/bitcoin.jpg'),
+                require('../../assets/images/ethereum.jpg'),
+                require('../../assets/images/slp.jpg'),
             ]
         };
     }
     render() {
         return (
-
             <View style={style.container}>
 
                 <View style={style.headerView}>
@@ -30,7 +31,7 @@ export default class HomeScreen extends React.Component {
                         inlineImageLeft="Search"
                         inlineImagePadding={20}
                     />
-                    <IconI name="notifications" size={30} color={colors.white} />
+                    <IconF name="user-alt" size={30} color={colors.white} />
                 </View>
 
                 <SliderBox
@@ -41,9 +42,10 @@ export default class HomeScreen extends React.Component {
                     resizeMode="stretch"
                     circleLoop
                     sliderBoxHeight={160}
-                    ImageComponentStyle={{ borderRadius: 14, width: '92%', marginTop: 8 }}
-                />
+                    ImageComponentStyle={style.slider} />
                 <CustomFlatlist title={"Top movers"} />
+                <CoinListFlatlist title={"Coin Listesi"} price={"Fiyat"} change={"Değişim"} />
+
 
             </View>
 

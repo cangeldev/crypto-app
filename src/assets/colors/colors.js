@@ -1,15 +1,20 @@
-export  default  {
+export default {
     white: '#fff',
-    white1 :"#F0F4F3",
-    grey1 :"#9b9b9b",
-    grey2 :"#f5f5f5",
-    blue1 :"#003cc1",
-    blue2 :"#005ad1",
-    blue3 :"#0078d7",
-    blue4 :"#005b9e",
-    red :"#ff0000",
-    black :"#000000",
-    bos :"#efe9e5",
-    bos2 :"#fafafa",
-   }
- 
+    white1: "#F0F4F3",
+    white2: "#eff3f4",
+    white3: "#ecedf1",
+    grey1: "#9b9b9b",
+    grey2: "#f5f5f5",
+    grey3: "#f6f4f7",
+    grey4: "#efefef",
+    grey5: "#f2f2f2",
+    blue1: "#003cc1",
+    blue2: "#005ad1",
+    blue3: "#0078d7",
+    blue4: "#005b9e",
+    red: "#ff0000",
+    black: "#000000",
+    green: "#008000",
+    yellow: "#ffd800",
+
+}

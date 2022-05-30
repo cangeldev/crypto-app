@@ -23,6 +23,7 @@
     "react-native-splash-screen": "^3.3.0",
     "react-native-svg": "^12.3.0",
     "react-native-svg-transformer": "^1.0.0",
+    "react-native-system-navigation-bar": "^1.0.4",
     "react-native-vector-icons": "^9.1.0"
   },
   "devDependencies": {

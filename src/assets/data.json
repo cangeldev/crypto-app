@@ -2,51 +2,138 @@
   {
     "id": "0",
     "title": "Popüler",
-    "coinName": "Bitcoin",
-    "price": "$29,300",
-    "chance": 1914
+    "coinName": "Bitcoin2323232320",
+    "price": "$29,30023232323",
+    "change": 1914232323232,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "1",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin1",
     "price": "$29,300",
-    "chance": "%1914"
+    "change": "%191423223232342342343432423",
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "2",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin2",
     "price": "$29,300",
-    "chance": 1914
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "3",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin3",
     "price": "$29,300",
-    "chance": 1914
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "4",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin4",
     "price": "$29,300",
-    "chance": 1914
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "5",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin5",
   "price": "$29,300",
-    "chance": 1914
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   },
   {
     "id": "6",
     "title": "Popüler",
-    "coinName": "Bitcoin",
+    "coinName": "Bitcoin6",
     "price": 1000,
-    "chance": 1914
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Popüler",
+    "coinName": "Bitcoin7",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Popüler",
+    "coinName": "Bitcoin8",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Popüler",
+    "coinName": "Bitcoin9",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Popüler",
+    "coinName": "Bitcoin10",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Popüler",
+    "coinName": "Bitcoin11",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Popüler",
+    "coinName": "Bitcoin12",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Popüler",
+    "coinName": "Bitcoin13",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Popüler",
+    "coinName": "Bitcoin14",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Popüler",
+    "coinName": "Bitcoin15",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Popüler",
+    "coinName": "deneme16",
+    "price": 1000,
+    "change": 1914,
+    "imageUrl": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
   }
 ]
 
