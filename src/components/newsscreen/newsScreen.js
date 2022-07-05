@@ -5,10 +5,8 @@ import NewsCard from "../../sharedComponents/cards/news_card/news_card";
 import style from "./style";
 import IconI from "react-native-vector-icons/Ionicons";
 import colors from "../../assets/colors/colors";
-
 function NewsScreen() {
     const renderNews = ({ item }) => <NewsCard card={item} />
-
     return (
         <View >
             <FlatList renderItem={renderNews}

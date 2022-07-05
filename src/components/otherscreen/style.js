@@ -6,7 +6,7 @@ export default StyleSheet.create({
         flex: 1,
     },
     headerView: {
-        paddingTop:7,
+        paddingTop: 7,
         paddingVertical: "2%",
         backgroundColor: colors.blue1,
         borderBottomRightRadius: 10,

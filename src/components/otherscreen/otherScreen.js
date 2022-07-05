@@ -2,9 +2,7 @@ import React from "react";
 import {View,Text,TextInput} from"react-native"
 import colors from "../../assets/colors/colors";
 import style from "./style"
-
 import CoinFavoriteListFlatlist from "../../sharedComponents/coinFavoriteList/coinFavoriteListFlatlist/coinFavoriteListFlatlist"
-
 function OtherScreen(){
     return(
         <View  style={{flex:1}} >
@@ -16,8 +14,7 @@ function OtherScreen(){
                         inlineImagePadding={20}
                     />
                 </View>
-                <CoinFavoriteListFlatlist title={"Coin Listesi"} price={"Fiyat"} change={"Değişim"} />
-               
+                <CoinFavoriteListFlatlist title={"Coin Listesi"} price={"Fiyat"} change={"Değişim"} />               
         </View>
     )
 }

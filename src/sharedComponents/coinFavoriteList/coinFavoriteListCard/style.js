@@ -29,7 +29,7 @@ export default StyleSheet.create({
     fontSize: 17,
     borderRadius: 6,
     fontWeight: "500"
-  }, 
+  },
   image: {
     width: 35,
     height: 35,

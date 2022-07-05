@@ -6,7 +6,7 @@ export default StyleSheet.create({
         flex: 1,
     },
     headerView: {
-        paddingTop:7,
+        paddingTop: 7,
         flexDirection: "row",
         paddingVertical: "2%",
         paddingHorizontal: 15,

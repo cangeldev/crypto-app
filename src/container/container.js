@@ -5,17 +5,12 @@ import style from './style'
 import LoginScreen from '../useroperations/loginscreen'
 import SignInScreen from '../useroperations/signinscreen'
 import ForgotScreen from '../useroperations/forgotscreen'
-
-//import { HomeScreen, OtherScreen } from "../components"
 import NewsScreen from "../components/newsscreen/newsScreen"
 import HomeScreen from '../components/homescreen/homeScreen'
 import OtherScreen from "../components/otherscreen/otherScreen"
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-import IconM from "react-native-vector-icons/MaterialIcons";
 import IconMC from "react-native-vector-icons/MaterialCommunityIcons";
 import IconF from "react-native-vector-icons/Fontisto";
 import IconL from "react-native-vector-icons/Ionicons";
@@ -24,7 +19,7 @@ function Container() {
     const Stack = createNativeStackNavigator()
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName='TabNavigator' screenOptions={{headerShown: false }}>
+            <Stack.Navigator initialRouteName='LoginScreen' screenOptions={{ headerShown: false }}>
                 <Stack.Screen name="LoginScreen" component={LoginScreen} />
                 <Stack.Screen name="SignInScreen" component={SignInScreen} />
                 <Stack.Screen name="ForgotScreen" component={ForgotScreen} />
@@ -40,17 +35,12 @@ function TabNavigator() {
         <View style={style.container}>
 
             <Tab.Navigator screenOptions={{
-                headerShown: false,
-                //  tabBarActiveTintColor: colors.white,
-                //tabBarInactiveTintColor: colors.blue4,
-                //tabBarLabelStyle: { fontSize: 14, },
+                headerShown: false,             
                 tabBarInactiveBackgroundColor: colors.white,
                 tabBarActiveBackgroundColor: colors.white,
                 tabBarShowLabel: false
-
             }}>
                 <Tab.Screen name="HomeScreen" component={HomeScreen}
-
                     options={{
                         tabBarLabel: "Anasayfa",
                         tabBarIcon: ({ focused }) =>
